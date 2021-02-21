@@ -9,9 +9,9 @@ public class NegativePositiveAndZeroValues {
         System.out.print("Enter number from 0 to 10 : ");
         int inputValue = input.nextInt();
 
-        if(inputValue == -inputValue){
+        if(inputValue < 0){
             System.out.println("Number is negative");
-        }else if(inputValue == inputValue){
+        }else if(inputValue > 0){
             System.out.println("Number is positive");
         }else{
             System.out.println("Number is zero");
